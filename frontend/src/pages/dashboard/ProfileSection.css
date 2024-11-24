@@ -1,0 +1,40 @@
+.profile-section {
+    background-color: #f9f9f9; /* Light background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color:black;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture-container {
+    margin-right: 20px; /* Spacing between picture and details */
+}
+
+.profile-picture {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Circular profile picture */
+    object-fit: cover; /* Cover the container */
+}
+
+.profile-details {
+    flex-grow: 1; /* Take remaining space */
+}
+
+.edit-profile-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-profile-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

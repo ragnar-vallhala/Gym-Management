@@ -1,0 +1,41 @@
+.dashboard-header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Circular profile picture */
+    margin-right: 15px; /* Spacing between picture and nav */
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
