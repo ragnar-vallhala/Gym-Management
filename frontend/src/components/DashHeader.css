@@ -1,0 +1,20 @@
+.header{
+
+
+  margin: 30px;
+  display:flex;
+}
+h2 {
+  color: #ff6b6b;
+  margin-top: 0px;
+}
+
+.links{
+ position:relative;
+  left:700px;
+}
+
+a{
+  color: white;
+  margin: 30px;
+}
